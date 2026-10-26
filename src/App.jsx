@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Student from './Components/Student'
+import Interest from './Components/Interest'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,8 @@ function App() {
     <h1><b>Student Details</b></h1>
     <hr/>
     <Student />
+    <hr/>
+    <Interest />
     </>
   )
 }
